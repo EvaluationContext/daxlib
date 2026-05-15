@@ -1,0 +1,35 @@
+/// to sum number that are larger than num
+/// @param colRef the column to sum
+/// @param num the number to compare to
+function 'HC.Daxliblib.sumlarge' = ```
+        ( 
+            colRef: COLUMNREF, 
+            num: INT64 EXPR
+        ) =>
+            
+            CALCULATE(
+                SUM( colRef ),
+                colRef > num
+            )
+    ```
+
+	annotation DAXLIB_PackageId = HC.DaxLibLib
+
+	annotation DAXLIB_PackageVersion = 0.0.1
+
+/// MyFunc2 description
+function 'HC.Daxliblib.Sumsmall' =  ```
+        ( 
+            colRef: COLUMNREF, 
+            num: INT64 EXPR 
+        ) => 
+        
+            CALCULATE(
+                SUM( colRef ),
+                colRef < num
+            )
+    ```
+
+	annotation DAXLIB_PackageId = HC.DaxLibLib
+
+	annotation DAXLIB_PackageVersion = 0.0.1

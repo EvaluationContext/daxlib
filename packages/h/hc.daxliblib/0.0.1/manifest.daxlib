@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/daxlib/daxlib/refs/heads/main/schemas/manifest/1.0.0/manifest.1.0.0.schema.json",
+  "id": "HC.DaxLibLib",
+  "version": "0.0.1",
+  "authors": "JDuddy",
+  "description": "My great library for doing things with DAX.",
+  "tags": "DAX",
+  "releaseNotes": "Initial release.",
+  "projectUrl": "https://github.com/daxlib/dev-daxlib-sample",
+  "repositoryUrl": "https://github.com/daxlib/dev-daxlib-svg",
+  "readme": "/README.md"
+}
